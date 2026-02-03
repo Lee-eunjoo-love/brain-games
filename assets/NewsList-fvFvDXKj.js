@@ -1,4 +1,4 @@
-import{r as M,j as O}from"./index-BcCAHHbL.js";import{a as yt}from"./styled-components.browser.esm-CT9p4zJZ.js";const wt=yt.div`
+import{r as M,j as O}from"./index-BUrC0k5s.js";import{a as yt}from"./styled-components.browser.esm-BFw9Jxy7.js";const wt=yt.div`
   display: flex;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
