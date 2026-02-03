@@ -1,4 +1,4 @@
-import{r as n,j as r}from"./index-Vpb440Aw.js";import{a as d}from"./styled-components.browser.esm-Dx1MRBwr.js";import{b as i}from"./BrainVitaminsPage-CytiOxNU.js";import{b as l,a as c}from"./index-BuvenwC_.js";const m=d.div`
+import{r as n,j as r}from"./index-DeS1Xnzc.js";import{a as d}from"./styled-components.browser.esm-CdLxlMJe.js";import{b as i}from"./BrainVitaminsPage-lK12wpdH.js";import{b as l,a as c}from"./index-BiLRgepB.js";const m=d.div`
   padding: 20px;
   min-width: 450px;
   max-width: 600px;
