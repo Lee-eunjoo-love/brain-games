@@ -1,4 +1,4 @@
-import{r as a,j as o}from"./index-Bl8bo_Ae.js";import{a as i}from"./styled-components.browser.esm-yJ9f8FnG.js";import{g as r}from"./GroceryShoppingPage-FLeasq_i.js";import{b as d}from"./index-hAamA5tt.js";import"./CloseButton-ChHwlobN.js";const n=i.div`
+import{r as a,j as o}from"./index-B8RVsLNq.js";import{a as i}from"./styled-components.browser.esm-DCmKCKHR.js";import{g as r}from"./GroceryShoppingPage-D6MkHyfY.js";import{b as d}from"./index-BY20sHkW.js";import"./CloseButton-9VXWbv5J.js";const n=i.div`
   button {
     padding: 10px;
     color: #fff;
