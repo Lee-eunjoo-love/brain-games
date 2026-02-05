@@ -1,4 +1,4 @@
-import{r as a,j as o}from"./index-B8m8T8rI.js";import{b as s,d}from"./index-BgDPyGW3.js";import{g as r}from"./GroceryShoppingPage-Clp67yWY.js";import"./CloseButton-DRanGthf.js";const n=d.div`
+import{r as a,j as o}from"./index-Dk3huhtS.js";import{b as s,d}from"./index-BkOrEXm0.js";import{g as r}from"./GroceryShoppingPage-CTntwpwD.js";import"./CloseButton-BuR0yKd5.js";const n=d.div`
   button {
     padding: 10px;
     color: #fff;
