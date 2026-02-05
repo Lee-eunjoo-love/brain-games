@@ -1,1 +1,0 @@
-import{r,j as e}from"./index-CNB9q87L.js";import{s as o}from"./SudokuPage-DfzT9Fc_.js";import{b as n}from"./index-DLhHdLF8.js";import"./CloseButton-BCK_oVRN.js";const a=n(({item:t})=>{const{levelInfo:s}=o;return e.jsx("button",{onClick:()=>o.onCheckInput(t),className:"padBtn",style:{width:s.size===9?"38px":"60px"},title:"일",children:t})}),l=r.memo(a);export{l as default};
