@@ -1,4 +1,4 @@
-import{r as o,j as r}from"./index-BCzqE9eq.js";import{b as l,a as c,d as m}from"./index-Ct62Zv56.js";import{b as i}from"./BrainVitaminsPage-C5kgJSMG.js";import{u as p}from"./index-XdSe9uHm.js";const x=m.div`
+import{r as o,j as r}from"./index-DT5whlPx.js";import{b as l,a as c,d as m}from"./index-DssShthJ.js";import{b as i}from"./BrainVitaminsPage-Baopqxcv.js";import{u as p}from"./index-DPpfJMls.js";const x=m.div`
   padding: 20px;
   margin: 0 auto;
   text-align: center;
