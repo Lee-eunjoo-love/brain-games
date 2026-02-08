@@ -1,4 +1,4 @@
-import{r as i,j as e}from"./index-slqReVtc.js";import{b as x,a,d as m}from"./index-CFNmnnD6.js";import{b as t}from"./BrainVitaminsPage-DyDWr04O.js";const b="/brain-games/assets/result_title_image-BCdw29Xg.png",p=m.div`
+import{r as i,j as e}from"./index-DoibdHHY.js";import{b as x,a,d as m}from"./index-D7_kMMtS.js";import{b as t}from"./BrainVitaminsPage-BF_gkLov.js";const b="/brain-games/assets/result_title_image-BCdw29Xg.png",p=m.div`
   padding: 20px;
   margin: 0 auto;
   text-align: center;
