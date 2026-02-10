@@ -1,0 +1,44 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/react-mMXeB-vI.js","assets/index-a8TO8Ni5.js","assets/index-ocwxBRUJ.css","assets/mixin-D3UDm--6.js","assets/hls-Cp2x8l1r.js","assets/react-B3qEMfR2.js","assets/index-hC1Qn4r6.js","assets/react-BXkRNBoT.js","assets/react-X3657Rnn.js","assets/react-C15rOxTm.js","assets/react-b4S7xS70.js","assets/react-BSrzhn94.js","assets/react-BNVbErLj.js","assets/Preview-DE2q56cW.js"])))=>i.map(i=>d[i]);
+import{R as _,r as t,_ as f,u as K,c as q,j as s}from"./index-a8TO8Ni5.js";import{a as Z}from"./styled-components.browser.esm-Bh6T-alR.js";import{v as G,F as p,a as J,b as L,c as O,d as Q,e as j}from"./videoPlayerStore-DHXHPB96.js";import"./index-DPW6c1tB.js";const U=/\.(m4a|m4b|mp4a|mpga|mp2|mp2a|mp3|m2a|m3a|wav|weba|aac|oga|spx)($|\?)/i,z=/\.(mp4|og[gv]|webm|mov|m4v)(#t=[,\d+]+)?($|\?)/i,V=/\.(m3u8)($|\?)/i,ee=/\.(mpd)($|\?)/i,te=/stream\.mux\.com\/(?!\w+\.m3u8)(\w+)/,ae=/(?:youtu\.be\/|youtube(?:-nocookie|education)?\.com\/(?:embed\/|v\/|watch\/|watch\?v=|watch\?.+&v=|shorts\/|live\/))((\w|-){11})|youtube\.com\/playlist\?list=|youtube\.com\/user\//,le=/vimeo\.com\/(?!progressive_redirect).+/,re=/(?:wistia\.(?:com|net)|wi\.st)\/(?:medias|embed)\/(?:iframe\/)?([^?]+)/,ne=/open\.spotify\.com\/(\w+)\/(\w+)/i,ie=/(?:www\.|go\.)?twitch\.tv\/([a-zA-Z0-9_]+|(videos?\/|\?video=)\d+)($|\?)/,oe=/tiktok\.com\/(?:player\/v1\/|share\/video\/|@[^/]+\/video\/)([0-9]+)/,R=(e,r)=>{if(Array.isArray(e)){for(const d of e)if(typeof d=="string"&&R(d,r)||R(d.src,r))return!0;return!1}return r(e)},v={html:e=>R(e,r=>U.test(r)||z.test(r)),hls:e=>R(e,r=>V.test(r)),dash:e=>R(e,r=>ee.test(r)),mux:e=>te.test(e),youtube:e=>ae.test(e),vimeo:e=>le.test(e)&&!z.test(e)&&!V.test(e),wistia:e=>re.test(e),spotify:e=>ne.test(e),twitch:e=>ie.test(e),tiktok:e=>oe.test(e)},se=_.forwardRef((e,r)=>{const d=U.test(`${e.src}`)?"audio":"video";return _.createElement(d,{...e,ref:r},e.children)});var ce=se;const ue=[{key:"hls",name:"hls.js",canPlay:v.hls,canEnablePIP:()=>!0,player:t.lazy(()=>f(()=>import("./react-mMXeB-vI.js"),__vite__mapDeps([0,1,2,3,4])))},{key:"dash",name:"dash.js",canPlay:v.dash,canEnablePIP:()=>!0,player:t.lazy(()=>f(()=>import("./react-B3qEMfR2.js"),__vite__mapDeps([5,1,2,3])))},{key:"mux",name:"Mux",canPlay:v.mux,canEnablePIP:()=>!0,player:t.lazy(()=>f(()=>import("./index-hC1Qn4r6.js"),__vite__mapDeps([6,1,2,4,3])))},{key:"youtube",name:"YouTube",canPlay:v.youtube,player:t.lazy(()=>f(()=>import("./react-BXkRNBoT.js"),__vite__mapDeps([7,1,2])))},{key:"vimeo",name:"Vimeo",canPlay:v.vimeo,player:t.lazy(()=>f(()=>import("./react-X3657Rnn.js"),__vite__mapDeps([8,1,2])))},{key:"wistia",name:"Wistia",canPlay:v.wistia,canEnablePIP:()=>!0,player:t.lazy(()=>f(()=>import("./react-C15rOxTm.js"),__vite__mapDeps([9,1,2])))},{key:"spotify",name:"Spotify",canPlay:v.spotify,canEnablePIP:()=>!1,player:t.lazy(()=>f(()=>import("./react-b4S7xS70.js"),__vite__mapDeps([10,1,2])))},{key:"twitch",name:"Twitch",canPlay:v.twitch,canEnablePIP:()=>!1,player:t.lazy(()=>f(()=>import("./react-BSrzhn94.js"),__vite__mapDeps([11,1,2])))},{key:"tiktok",name:"TikTok",canPlay:v.tiktok,canEnablePIP:()=>!1,player:t.lazy(()=>f(()=>import("./react-BNVbErLj.js"),__vite__mapDeps([12,1,2])))},{key:"html",name:"html",canPlay:v.html,canEnablePIP:()=>!0,player:ce}];var C=ue;const de={width:"320px",height:"180px",volume:1,playbackRate:1,previewTabIndex:0,previewAriaLabel:"",oEmbedUrl:"https://noembed.com/embed?url={url}"},H=_.forwardRef((e,r)=>{const{playing:d,pip:m}=e,i=e.activePlayer,a=t.useRef(null),n=t.useRef(!0);t.useEffect(()=>{var l,o;a.current&&(a.current.paused&&d===!0&&a.current.play(),!a.current.paused&&d===!1&&a.current.pause(),a.current.playbackRate=(l=e.playbackRate)!=null?l:1,a.current.volume=(o=e.volume)!=null?o:1)}),t.useEffect(()=>{var l,o,c,P,w;if(!(!a.current||!globalThis.document)){if(m&&!document.pictureInPictureElement)try{(o=(l=a.current).requestPictureInPicture)==null||o.call(l)}catch{}if(!m&&document.pictureInPictureElement)try{(P=(c=a.current).exitPictureInPicture)==null||P.call(c),(w=document.exitPictureInPicture)==null||w.call(document)}catch{}}},[m]);const x=l=>{var o,c;n.current=!0,(o=e.onReady)==null||o.call(e),(c=e.onLoadStart)==null||c.call(e,l)},u=l=>{var o,c;n.current&&(n.current=!1,(o=e.onStart)==null||o.call(e,l)),(c=e.onPlay)==null||c.call(e,l)};if(!i)return null;const h={},k=["onReady","onStart"];for(const l in e)l.startsWith("on")&&!k.includes(l)&&(h[l]=e[l]);return _.createElement(i,{...h,style:e.style,className:e.className,slot:e.slot,ref:t.useCallback(l=>{a.current=l,typeof r=="function"?r(l):r!==null&&(r.current=l)},[r]),src:e.src,crossOrigin:e.crossOrigin,preload:e.preload,controls:e.controls,muted:e.muted,autoPlay:e.autoPlay,loop:e.loop,playsInline:e.playsInline,disableRemotePlayback:e.disableRemotePlayback,config:e.config,onLoadStart:x,onPlay:u},e.children)});H.displayName="Player";var me=H;const ye=t.lazy(()=>f(()=>import("./Preview-DE2q56cW.js"),__vite__mapDeps([13,1,2]))),I=[],ve=(e,r)=>{const d=i=>{for(const a of[...I,...e])if(i&&a.canPlay(i))return a;return r||null},m=_.forwardRef((i,a)=>{const n={...de,...i},{src:x,slot:u,className:h,style:k,width:l,height:o,fallback:c,wrapper:P}=n,[w,y]=t.useState(!!n.light);t.useEffect(()=>{n.light?y(!0):y(!1)},[n.light]);const M=g=>{var b;y(!1),(b=n.onClickPreview)==null||b.call(n,g)},$=g=>{if(!g)return null;const{light:b,playIcon:T,previewTabIndex:E,oEmbedUrl:A,previewAriaLabel:N}=n;return _.createElement(ye,{src:g,light:b,playIcon:T,previewTabIndex:E,previewAriaLabel:N,oEmbedUrl:A,onClickPreview:M})},F=g=>{var b,T;const E=d(g);if(!E)return null;const{style:A,width:N,height:Y,wrapper:S}=n,B=(b=n.config)==null?void 0:b[E.key];return _.createElement(me,{...n,ref:a,activePlayer:(T=E.player)!=null?T:E,slot:S?void 0:u,className:S?void 0:h,style:S?{display:"block",width:"100%",height:"100%"}:{display:"block",width:N,height:Y,...A},config:B})},W=P??D,X=c===!1?D:t.Suspense;return _.createElement(W,{slot:u,className:h,style:{width:l,height:o,...k}},_.createElement(X,{fallback:c},w?$(x):F(x)))});return m.displayName="ReactPlayer",m.addCustomPlayer=i=>{I.push(i)},m.removeCustomPlayers=()=>{I.length=0},m.canPlay=i=>{if(i){for(const a of[...I,...e])if(a.canPlay(i))return!0}return!1},m.canEnablePIP=i=>{var a;if(i){for(const n of[...I,...e])if(n.canPlay(i)&&((a=n.canEnablePIP)!=null&&a.call(n)))return!0}return!1},m},D=({children:e})=>e,fe=C[C.length-1];var Pe=ve(C,fe);const _e=Z.div`
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  .box {
+    background-color: white;
+    margin: 80px auto;
+    max-width: 500px;
+    min-width: 100px;
+    min-height: 350px;
+    font: 13px "verdana";
+    padding: 10px;
+    border-radius: 0.7rem;
+    div {
+      padding: 0;
+      display: block;
+      margin: 10px 0 0 0;
+    }
+    .heading {
+      background-color: #695aa0;
+      font-weight: 300;
+      text-align: left;
+      color: #fff;
+      margin: 5px 0 5px 0;
+      padding: 0.5rem;
+      min-width: 200px;
+      max-width: 500px;
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+    .player {
+      background-color: rgba(0, 0, 0, 1);
+    }
+  }
+  .pointer {
+    cursor: pointer;
+  }
+`,he=t.memo(Pe),be=()=>{const e=K(),d=q().id,m=t.useRef(null),[i,a]=t.useState(!1),[n,x]=t.useState(!1),{videos:u}=G,h=t.useCallback(()=>{a(!0),x(!0)},[]),k=t.useCallback(()=>{a(y=>!y),e("/brain-games/videos")},[e]),l=t.useCallback(()=>{a(y=>!y)},[]);if(!u)return null;const o=u.findIndex(y=>y.id===d),c=u[o];if(!c)return s.jsx("div",{children:"유효하지 않은 영상입니다."});let P=u[o+1];P||(P=u[0]);const w=o<=0?u[u.length-1]:u[o-1];return s.jsx(_e,{children:s.jsxs("div",{className:"box",children:[s.jsxs("div",{className:"heading",children:[s.jsx("span",{className:"title text-violet-100 font-semibold",children:c.title||"제목"}),s.jsxs("span",{className:"category text-violet-200",children:[" / ",c.category||"카테고리"]}),s.jsx(p,{icon:J,size:"1x",className:"float-end badge bg-secondary pointer mt-1.5",onClick:k})]}),s.jsx("div",{className:"player",children:s.jsx(he,{src:`https://www.youtube.com/watch?v=${c.id}`,volume:.5,controls:!0,playing:i,width:"100%",height:300,onReady:h,ref:m},c.id)}),s.jsxs("div",{children:[n&&s.jsxs("div",{children:[s.jsx(p,{icon:L,size:"1x",className:"ml-2 pointer hover:text-violet-700",onClick:()=>e(`/brain-games/videos/${w.id}`)}),s.jsx(p,{icon:i?O:Q,size:"1x",className:"ml-2 pointer hover:text-violet-700",onClick:l}),s.jsx(p,{icon:j,size:"1x",className:"ml-2 pointer hover:text-violet-700",onClick:()=>e(`/brain-games/videos/${P.id}`)})]}),!n&&s.jsxs("div",{children:[s.jsx(p,{icon:L,size:"1x",className:"ml-2"}),s.jsx(p,{icon:O,size:"1x",className:"ml-2"}),s.jsx(p,{icon:j,size:"1x",className:"ml-2"})]})]})]})})},Ee=t.memo(be);export{Ee as default};
