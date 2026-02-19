@@ -1,1 +1,0 @@
-import{j as e}from"./index-f_fVk6cW.js";const s=()=>e.jsx("div",{className:"flex items-center justify-center text-8xl",children:"404"});export{s as default};
