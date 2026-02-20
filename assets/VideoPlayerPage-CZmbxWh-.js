@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/VideoPlayer-Dlo-QkF6.js","assets/vendor-player-mobx-BpFE6djQ.js","assets/vendor-styled-components-nzWzLsK-.js","assets/videoPlayerStore-D2gUx9eF.js"])))=>i.map(i=>d[i]);
-import{e as a,o,j as e,l as r,f as s}from"./vendor-player-mobx-BpFE6djQ.js";import{L as t}from"./Loading-BbqOCeZ6.js";const l=r(()=>s(()=>import("./VideoPlayer-Dlo-QkF6.js"),__vite__mapDeps([0,1,2,3])),{fallback:e.jsx(t,{})}),i=o(()=>e.jsx(l,{})),_=a.memo(i);export{_ as default};

@@ -1,1 +1,0 @@
-import{e as o,j as t,a5 as s}from"./vendor-player-mobx-BpFE6djQ.js";const a=({onClickEvent:r,children:e})=>t.jsxs("button",{className:"backBtn text-gray-500 dark:text-gray-200 hover:opacity-80 flex justify-center outline-0",onClick:r,children:[t.jsx(s,{size:40,fill:"#466cbe",color:"#466cbe"})," ",e]}),n=o.memo(a);export{n as default};
