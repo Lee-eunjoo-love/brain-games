@@ -1,0 +1,1 @@
+import{j as e,L as s}from"./index-CjOJJEMd.js";const a=()=>e.jsxs("div",{className:"flex-1 items-center justify-center text-8xl",children:["404",e.jsx("p",{className:"mt-10",children:e.jsx(s,{to:"/brain-games",className:"text-2xl",children:"메인 페이지로 ..."})})]});export{a as default};
