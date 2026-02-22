@@ -1,1 +1,0 @@
-import{r as s,j as e}from"./index-DMJvM2X8.js";const t=()=>e.jsxs("div",{className:"text-sky-800 dark:text-sky-300 w-[calc(100%)] h-15 flex items-center justify-center",disabled:!0,children:[e.jsx("svg",{className:"animate-spin motion-reduce:hidden",viewBox:"0 0 24 24",width:24,height:24}),e.jsx("span",{children:"Loading ..."})]}),a=s.memo(t);export{a as L};
